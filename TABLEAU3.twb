@@ -1,0 +1,657 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0912.1023                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='ae02be5a47e8faa5114c129bbc3f25d7f98d88b0636e192e9e81ff3071dcc4b4' _.fcp.WorkbookFingerprinting.true...creator-author-id='c0761b07b119e521f1a91bcfbfb970faab1e225adde30b0f789823ede23bc86c' _.fcp.WorkbookFingerprinting.true...creator-license-type='free' _.fcp.WorkbookFingerprinting.true...creator-machine-id='e29192d50bd8c668cc846a0a247615a0d4e49e956fe6c8052439d2db010d41f1' _.fcp.WorkbookFingerprinting.true...license-type='free' _.fcp.WorkbookFingerprinting.true...machine-id='2f2cfc3b7684ef2f22c39564e5a9f7d8ae4c752854b6b671cf78b7323b58c795' original-version='18.1' source-build='2026.2.3 (20262.26.0912.1023)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Iris' inline='true' name='federated.1ucv8o811aa77y1bnpgoi0ewc90p' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Iris' name='textscan.0bznmk61cnicjr12m4ww40h0t7gs'>
+            <connection class='textscan' directory='C:/Users/Naval/Desktop/DV' filename='Iris_Lab Program 3 Dataset.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0bznmk61cnicjr12m4ww40h0t7gs' name='Iris_Lab Program 3 Dataset.csv' table='[Iris_Lab Program 3 Dataset#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='integer' name='Id' ordinal='0' />
+            <column datatype='real' name='SepalLengthCm' ordinal='1' />
+            <column datatype='real' name='SepalWidthCm' ordinal='2' />
+            <column datatype='real' name='PetalLengthCm' ordinal='3' />
+            <column datatype='real' name='PetalWidthCm' ordinal='4' />
+            <column datatype='string' name='Species' ordinal='5' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Iris_Lab Program 3 Dataset.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Id]</local-name>
+            <parent-name>[Iris_Lab Program 3 Dataset.csv]</parent-name>
+            <remote-alias>Id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Iris.csv_9046CCC4FA9C46E5B892B0B7A0470AA5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SepalLengthCm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SepalLengthCm]</local-name>
+            <parent-name>[Iris_Lab Program 3 Dataset.csv]</parent-name>
+            <remote-alias>SepalLengthCm</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Iris.csv_9046CCC4FA9C46E5B892B0B7A0470AA5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SepalWidthCm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SepalWidthCm]</local-name>
+            <parent-name>[Iris_Lab Program 3 Dataset.csv]</parent-name>
+            <remote-alias>SepalWidthCm</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Iris.csv_9046CCC4FA9C46E5B892B0B7A0470AA5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PetalLengthCm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PetalLengthCm]</local-name>
+            <parent-name>[Iris_Lab Program 3 Dataset.csv]</parent-name>
+            <remote-alias>PetalLengthCm</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Iris.csv_9046CCC4FA9C46E5B892B0B7A0470AA5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PetalWidthCm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PetalWidthCm]</local-name>
+            <parent-name>[Iris_Lab Program 3 Dataset.csv]</parent-name>
+            <remote-alias>PetalWidthCm</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Iris.csv_9046CCC4FA9C46E5B892B0B7A0470AA5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Species</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Species]</local-name>
+            <parent-name>[Iris_Lab Program 3 Dataset.csv]</parent-name>
+            <remote-alias>Species</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Iris.csv_9046CCC4FA9C46E5B892B0B7A0470AA5]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Prediction Count' datatype='integer' name='[Calculation_0463221298991107]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SIZE()'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='First Only' datatype='boolean' name='[Calculation_0463221299970052]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='FIRST() == 0'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='SVM Prediction' datatype='string' name='[Calculation_0815339673677824]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='SCRIPT_STR(&quot;&#13;&#10;from sklearn.svm import SVC&#13;&#10;from sklearn.preprocessing import LabelEncoder&#13;&#10;import pandas as pd&#13;&#10;&#13;&#10;df = pd.DataFrame({&#13;&#10;    &apos;SepalLengthCm&apos;: _arg1,&#13;&#10;    &apos;SepalWidthCm&apos;: _arg2,&#13;&#10;    &apos;PetalLengthCm&apos;: _arg3,&#13;&#10;    &apos;PetalWidthCm&apos;: _arg4,&#13;&#10;    &apos;Species&apos;: _arg5&#13;&#10;})&#13;&#10;&#13;&#10;le = LabelEncoder()&#13;&#10;y = le.fit_transform(df[&apos;Species&apos;])&#13;&#10;X = df[[&apos;SepalLengthCm&apos;, &apos;SepalWidthCm&apos;, &apos;PetalLengthCm&apos;, &apos;PetalWidthCm&apos;]]&#13;&#10;&#13;&#10;model = SVC(kernel=&apos;rbf&apos;, C=1.0, gamma=&apos;scale&apos;)&#13;&#10;model.fit(X, y)&#13;&#10;preds = model.predict(X)&#13;&#10;&#13;&#10;return le.inverse_transform(preds).tolist()&#13;&#10;&quot;,&#13;&#10;ATTR([SepalLengthCm]),&#13;&#10;ATTR([SepalWidthCm]),&#13;&#10;ATTR([PetalLengthCm]),&#13;&#10;ATTR([PetalWidthCm]),&#13;&#10;ATTR([Species])&#13;&#10;)'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column datatype='integer' name='[Id]' role='dimension' type='ordinal' />
+      <column caption='Petal Length Cm' datatype='real' name='[PetalLengthCm]' role='measure' type='quantitative' />
+      <column caption='Petal Width Cm' datatype='real' name='[PetalWidthCm]' role='measure' type='quantitative' />
+      <column caption='Sepal Length Cm' datatype='real' name='[SepalLengthCm]' role='measure' type='quantitative' />
+      <column caption='Sepal Width Cm' datatype='real' name='[SepalWidthCm]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Species]' role='dimension' type='nominal' />
+      <column caption='Iris.csv' datatype='table' name='[__tableau_internal_object_id__].[Iris.csv_9046CCC4FA9C46E5B892B0B7A0470AA5]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_0815339673677824]' derivation='User' name='[usr:Calculation_0815339673677824:nk:2]' pivot='key' type='nominal'>
+        <table-calc ordering-field='[federated.1ucv8o811aa77y1bnpgoi0ewc90p].[Id]' ordering-type='Field' />
+      </column-instance>
+      <column-instance column='[Calculation_0815339673677824]' derivation='User' name='[usr:Calculation_0815339673677824:nk:5]' pivot='key' type='nominal'>
+        <table-calc ordering-type='Field'>
+          <order field='[federated.1ucv8o811aa77y1bnpgoi0ewc90p].[Id]' />
+          <order field='[federated.1ucv8o811aa77y1bnpgoi0ewc90p].[Species]' />
+        </table-calc>
+      </column-instance>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[usr:Calculation_0815339673677824:nk:2]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Iris-setosa&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Iris-virginica&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Iris-versicolor&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[usr:Calculation_0815339673677824:nk:5]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Iris-setosa&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Iris-virginica&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Iris-versicolor&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Iris.csv' id='Iris.csv_9046CCC4FA9C46E5B892B0B7A0470AA5'>
+            <properties context=''>
+              <relation connection='textscan.0bznmk61cnicjr12m4ww40h0t7gs' name='Iris_Lab Program 3 Dataset.csv' table='[Iris_Lab Program 3 Dataset#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='integer' name='Id' ordinal='0' />
+                  <column datatype='real' name='SepalLengthCm' ordinal='1' />
+                  <column datatype='real' name='SepalWidthCm' ordinal='2' />
+                  <column datatype='real' name='PetalLengthCm' ordinal='3' />
+                  <column datatype='real' name='PetalWidthCm' ordinal='4' />
+                  <column datatype='string' name='Species' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>SVM Prediction Table</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Iris' name='federated.1ucv8o811aa77y1bnpgoi0ewc90p' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ucv8o811aa77y1bnpgoi0ewc90p'>
+            <column caption='SVM Prediction' datatype='string' name='[Calculation_0815339673677824]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='SCRIPT_STR(&quot;&#13;&#10;from sklearn.svm import SVC&#13;&#10;from sklearn.preprocessing import LabelEncoder&#13;&#10;import pandas as pd&#13;&#10;&#13;&#10;df = pd.DataFrame({&#13;&#10;    &apos;SepalLengthCm&apos;: _arg1,&#13;&#10;    &apos;SepalWidthCm&apos;: _arg2,&#13;&#10;    &apos;PetalLengthCm&apos;: _arg3,&#13;&#10;    &apos;PetalWidthCm&apos;: _arg4,&#13;&#10;    &apos;Species&apos;: _arg5&#13;&#10;})&#13;&#10;&#13;&#10;le = LabelEncoder()&#13;&#10;y = le.fit_transform(df[&apos;Species&apos;])&#13;&#10;X = df[[&apos;SepalLengthCm&apos;, &apos;SepalWidthCm&apos;, &apos;PetalLengthCm&apos;, &apos;PetalWidthCm&apos;]]&#13;&#10;&#13;&#10;model = SVC(kernel=&apos;rbf&apos;, C=1.0, gamma=&apos;scale&apos;)&#13;&#10;model.fit(X, y)&#13;&#10;preds = model.predict(X)&#13;&#10;&#13;&#10;return le.inverse_transform(preds).tolist()&#13;&#10;&quot;,&#13;&#10;ATTR([SepalLengthCm]),&#13;&#10;ATTR([SepalWidthCm]),&#13;&#10;ATTR([PetalLengthCm]),&#13;&#10;ATTR([PetalWidthCm]),&#13;&#10;ATTR([Species])&#13;&#10;)'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='integer' name='[Id]' role='dimension' type='ordinal' />
+            <column caption='Petal Length Cm' datatype='real' name='[PetalLengthCm]' role='measure' type='quantitative' />
+            <column caption='Petal Width Cm' datatype='real' name='[PetalWidthCm]' role='measure' type='quantitative' />
+            <column caption='Sepal Length Cm' datatype='real' name='[SepalLengthCm]' role='measure' type='quantitative' />
+            <column caption='Sepal Width Cm' datatype='real' name='[SepalWidthCm]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Species]' role='dimension' type='nominal' />
+            <column-instance column='[PetalLengthCm]' derivation='Attribute' name='[attr:PetalLengthCm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PetalWidthCm]' derivation='Attribute' name='[attr:PetalWidthCm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Id]' derivation='None' name='[none:Id:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_0815339673677824]' derivation='User' name='[usr:Calculation_0815339673677824:nk:2]' pivot='key' type='nominal'>
+              <table-calc ordering-field='[federated.1ucv8o811aa77y1bnpgoi0ewc90p].[Id]' ordering-type='Field' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.1ucv8o811aa77y1bnpgoi0ewc90p].[usr:Calculation_0815339673677824:nk:2]' />
+              <lod column='[federated.1ucv8o811aa77y1bnpgoi0ewc90p].[none:Id:ok]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1ucv8o811aa77y1bnpgoi0ewc90p].[attr:PetalWidthCm:qk]</rows>
+        <cols>[federated.1ucv8o811aa77y1bnpgoi0ewc90p].[attr:PetalLengthCm:qk]</cols>
+      </table>
+      <simple-id uuid='{E4FF3900-1A42-4559-ADCA-E1BB2A958B4F}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Iris' name='federated.1ucv8o811aa77y1bnpgoi0ewc90p' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ucv8o811aa77y1bnpgoi0ewc90p'>
+            <column caption='Prediction Count' datatype='integer' name='[Calculation_0463221298991107]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SIZE()'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='First Only' datatype='boolean' name='[Calculation_0463221299970052]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='FIRST() == 0'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='SVM Prediction' datatype='string' name='[Calculation_0815339673677824]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='SCRIPT_STR(&quot;&#13;&#10;from sklearn.svm import SVC&#13;&#10;from sklearn.preprocessing import LabelEncoder&#13;&#10;import pandas as pd&#13;&#10;&#13;&#10;df = pd.DataFrame({&#13;&#10;    &apos;SepalLengthCm&apos;: _arg1,&#13;&#10;    &apos;SepalWidthCm&apos;: _arg2,&#13;&#10;    &apos;PetalLengthCm&apos;: _arg3,&#13;&#10;    &apos;PetalWidthCm&apos;: _arg4,&#13;&#10;    &apos;Species&apos;: _arg5&#13;&#10;})&#13;&#10;&#13;&#10;le = LabelEncoder()&#13;&#10;y = le.fit_transform(df[&apos;Species&apos;])&#13;&#10;X = df[[&apos;SepalLengthCm&apos;, &apos;SepalWidthCm&apos;, &apos;PetalLengthCm&apos;, &apos;PetalWidthCm&apos;]]&#13;&#10;&#13;&#10;model = SVC(kernel=&apos;rbf&apos;, C=1.0, gamma=&apos;scale&apos;)&#13;&#10;model.fit(X, y)&#13;&#10;preds = model.predict(X)&#13;&#10;&#13;&#10;return le.inverse_transform(preds).tolist()&#13;&#10;&quot;,&#13;&#10;ATTR([SepalLengthCm]),&#13;&#10;ATTR([SepalWidthCm]),&#13;&#10;ATTR([PetalLengthCm]),&#13;&#10;ATTR([PetalWidthCm]),&#13;&#10;ATTR([Species])&#13;&#10;)'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='integer' name='[Id]' role='dimension' type='ordinal' />
+            <column caption='Petal Length Cm' datatype='real' name='[PetalLengthCm]' role='measure' type='quantitative' />
+            <column caption='Petal Width Cm' datatype='real' name='[PetalWidthCm]' role='measure' type='quantitative' />
+            <column caption='Sepal Length Cm' datatype='real' name='[SepalLengthCm]' role='measure' type='quantitative' />
+            <column caption='Sepal Width Cm' datatype='real' name='[SepalWidthCm]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Species]' role='dimension' type='nominal' />
+            <column-instance column='[Id]' derivation='None' name='[none:Id:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Species]' derivation='None' name='[none:Species:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_0463221298991107]' derivation='User' name='[usr:Calculation_0463221298991107:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.1ucv8o811aa77y1bnpgoi0ewc90p].[Id]' ordering-type='Field' />
+            </column-instance>
+            <column-instance column='[Calculation_0463221299970052]' derivation='User' name='[usr:Calculation_0463221299970052:nk:2]' pivot='key' type='nominal'>
+              <table-calc ordering-field='[federated.1ucv8o811aa77y1bnpgoi0ewc90p].[Id]' ordering-type='Field' />
+            </column-instance>
+            <column-instance column='[Calculation_0815339673677824]' derivation='User' name='[usr:Calculation_0815339673677824:nk:5]' pivot='key' type='nominal'>
+              <table-calc ordering-type='Field'>
+                <order field='[federated.1ucv8o811aa77y1bnpgoi0ewc90p].[Id]' />
+                <order field='[federated.1ucv8o811aa77y1bnpgoi0ewc90p].[Species]' />
+              </table-calc>
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ucv8o811aa77y1bnpgoi0ewc90p].[usr:Calculation_0463221299970052:nk:2]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[usr:Calculation_0463221299970052:nk:2]' member='false' />
+              <groupfilter function='member' level='[usr:Calculation_0463221299970052:nk:2]' member='true' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1ucv8o811aa77y1bnpgoi0ewc90p].[usr:Calculation_0463221299970052:nk:2]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='off' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1ucv8o811aa77y1bnpgoi0ewc90p].[usr:Calculation_0463221298991107:qk:2]' />
+              <lod column='[federated.1ucv8o811aa77y1bnpgoi0ewc90p].[none:Id:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ucv8o811aa77y1bnpgoi0ewc90p].[none:Species:nk]</rows>
+        <cols total='true'>[federated.1ucv8o811aa77y1bnpgoi0ewc90p].[usr:Calculation_0815339673677824:nk:5]</cols>
+      </table>
+      <simple-id uuid='{A3FAEA48-DF42-437C-AA66-09AA7C6340E9}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ucv8o811aa77y1bnpgoi0ewc90p].[usr:Calculation_0815339673677824:nk:2]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ucv8o811aa77y1bnpgoi0ewc90p].[none:Id:ok]</field>
+            <field>[federated.1ucv8o811aa77y1bnpgoi0ewc90p].[usr:Calculation_0815339673677824:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{85D9052A-17A1-44E1-AC62-172EB88F23A5}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ucv8o811aa77y1bnpgoi0ewc90p].[none:Id:ok]</field>
+            <field>[federated.1ucv8o811aa77y1bnpgoi0ewc90p].[none:Species:nk]</field>
+            <field>[federated.1ucv8o811aa77y1bnpgoi0ewc90p].[usr:Calculation_0463221299970052:nk]</field>
+            <field>[federated.1ucv8o811aa77y1bnpgoi0ewc90p].[usr:Calculation_0815339673677824:nk:3]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F52E36A1-5362-45E6-952D-89D13A3CF528}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+      AWgAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
